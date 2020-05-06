@@ -1,3 +1,8 @@
+body{
+  background:#B3B3B3;
+  font-size: 130%;
+}
+
 h1{
   color:#5f0e0e;
   font-size: 250%;
@@ -5,14 +10,53 @@ h1{
 }
 h2{
   color:darkred;
+  background:#00b7ea;
+
 }
-header,footer{
+header{
   text-align: center;
-/*  background-color: #fd00569c; */
-}
-section{
   color: #9e0f0f;
+  margin:1%;
+
 }
+.half{
+
+  display:block;
+  width :47%;
+  margin: 3px;
+  float:left;
+
+}
+
+.full{
+  clear: both;
+}
+
 details{
   font-style: italic;
+}
+
+img{
+  width:10%;
+  display: inline-block;
+}
+
+footer{
+
+  margin:2%%;
+  clear:both;
+
+/*  background-color: #fd00569c; */
+}
+
+nav a{
+  color: black;
+  margin:1%;
+  font-size: 150%;
+}
+
+header, footer{
+	background: #666666;
+	background: linear-gradient(#666666 0%, #00b7ea 100%);
+
 }
